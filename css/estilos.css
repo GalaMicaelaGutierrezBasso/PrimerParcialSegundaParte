@@ -1,6 +1,11 @@
 body {
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+}
+body {
     box-sizing: border-box;
-    max-width: 900px;
+    max-width: 1000px;
     max-height: 1200px;
 }
 body {
@@ -38,4 +43,38 @@ nav a:hover {
 nav a:active {
     background-color: darkblue;
     color: white;
+}
+header {
+    background-color: white;
+    max-width: fit-content;
+}
+.titulos {
+    background-color:rgb(6, 6, 226);
+    color: white;
+    max-width: fit-content;
+}
+.subtitulos {
+    background-color:cornflowerblue;
+    color:black;
+    max-width: fit-content;
+}
+blockquote {
+    background-color: violet;
+    color: #000;
+    max-width: fit-content;
+}
+.seccion {
+    background-color: aliceblue;
+}
+.articulos {
+    background-color: lightgray;
+}
+h3 {
+    background-color:blueviolet;
+    color:black;
+    max-width: fit-content;
+}
+footer {
+    background-color: white;
+    max-width: fit-content;
 }
